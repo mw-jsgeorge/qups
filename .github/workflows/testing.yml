@@ -6,8 +6,8 @@ jobs:
     name: Legacy & OS Compatability Syntax Tests
     strategy:
       matrix:
-        platform: [ubuntu-latest, windows-latest, macos-latest]
-        release: [R2024a]
+        platform: [ubuntu-latest, windows-latest, macos-latest, macos-11]
+        release: [R2021a]
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Check out repository
