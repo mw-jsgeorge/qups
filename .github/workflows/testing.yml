@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         platform: [ubuntu-latest, windows-latest, macos-latest]
-        release: [R2021a]
+        release: [R2024a]
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Check out repository
