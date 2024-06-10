@@ -1,9 +1,5 @@
 name: Run MATLAB Tests and Generate MEX files on GitHub-Hosted Runner
 on:
-  pull_request:
-    types: [opened, reopened, review_requested]
-  schedule:
-    - cron: '25 21 * * 2,5'
   workflow_dispatch:
 jobs:
   compatability:
